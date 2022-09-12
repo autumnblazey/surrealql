@@ -1,0 +1,41 @@
+{
+	"name": "surrealql",
+	"version": "0.0.0",
+	"description": "small SurrealDB JS/TS library to help facilitate the use of SurrealQL",
+	"packageManager": "pnpm@7.11.0",
+	"main": "build/index.mjs",
+	"module": "build/index.mjs",
+	"types": "build/index.d.ts",
+	"sideEffects": false,
+	"files": [
+		"build"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"node": ">=16"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/autumnblazey/surrealql.git"
+	},
+	"keywords": [
+		"surrealdb",
+		"surrealql",
+		"surreal",
+		"sql"
+	],
+	"author": {
+		"name": "Autumn Meadow",
+		"url": "https://github.com/autumnblazey"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"ohmyfetch": "^0.4.18"
+	},
+	"devDependencies": {
+		"@types/node": "^18.7.16",
+		"typescript": "^4.8.3"
+	}
+}
