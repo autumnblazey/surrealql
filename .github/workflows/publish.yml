@@ -37,5 +37,6 @@ jobs:
         cp .github/.npmrc .npmrc
         VERSION=${GITHUB_REF#refs/*/v} node .github/prepare.mjs
         npm publish
+        rm .npmrc
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
